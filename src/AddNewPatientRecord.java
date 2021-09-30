@@ -52,16 +52,19 @@ public class AddNewPatientRecord extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(280, 150));
         setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(900, 550));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jButton1.setBackground(new java.awt.Color(255, 51, 51));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 0, 0));
         jButton1.setText("Close");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 474, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 460, 90, 40));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("PatientID");
@@ -119,7 +122,7 @@ public class AddNewPatientRecord extends javax.swing.JFrame {
         getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(211, 333, 250, -1));
 
         jTextField6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(69, 416, 262, -1));
+        getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 400, 400, 30));
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton2.setText("Save");
@@ -128,7 +131,7 @@ public class AddNewPatientRecord extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(123, 474, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 445, 90, 40));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

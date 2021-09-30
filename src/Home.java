@@ -40,6 +40,7 @@ public int i=0;
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 0, 0));
         setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(1366, 768));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N

@@ -16,7 +16,7 @@ public class ConnectionProvider {
     try
     {
     Class.forName("com.mysql.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/project","malon","malon");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project","malon","malon");
             return con;
     }
     catch (ClassNotFoundException | SQLException e){

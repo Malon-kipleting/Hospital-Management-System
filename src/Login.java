@@ -38,39 +38,43 @@ public class Login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(1366, 768));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("Username");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 240, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 320, -1, -1));
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 150, 430, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 230, 430, -1));
 
         jPasswordField1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 240, 430, -1));
+        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 320, 430, -1));
 
+        jButton1.setBackground(new java.awt.Color(204, 255, 204));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 204, 255));
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 410, 80, 40));
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 0, 0));
         jButton2.setText("Close");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 390, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 410, -1, 40));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
